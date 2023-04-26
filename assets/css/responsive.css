@@ -1,6 +1,6 @@
 
-/* table */
-@media (max-width: 1030px) {
+/* table and mobile*/
+@media (max-width: 1064.375em) {
     .btn {
         padding: 16.5px 16px;
     }
@@ -19,8 +19,16 @@
     .modal-container {
         margin:0px 10px;
 }
+/* PC */
+@media (min-width: 64.4375em) {
+
+}
+/* table */ 
+@media (min-width: 46.25em) and (max-width: 64.375em) {
+
+}
 /* Mobile */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     #header {
         overflow: hidden;
     }
